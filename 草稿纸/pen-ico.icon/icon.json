@@ -1,0 +1,61 @@
+{
+  "fill" : "system-light",
+  "groups" : [
+    {
+      "layers" : [
+        {
+          "blend-mode" : "normal",
+          "fill-specializations" : [
+            {
+              "value" : "none"
+            },
+            {
+              "appearance" : "dark",
+              "value" : "none"
+            }
+          ],
+          "image-name" : "pen 2.svg",
+          "name" : "pen",
+          "position" : {
+            "scale" : 40,
+            "translation-in-points" : [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "blend-mode" : "normal",
+          "fill" : {
+            "solid" : "extended-gray:0.00000,1.00000"
+          },
+          "glass" : false,
+          "hidden" : false,
+          "image-name" : "pen-black.svg",
+          "name" : "pen-black",
+          "position" : {
+            "scale" : 40,
+            "translation-in-points" : [
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.5
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "circles" : [
+      "watchOS"
+    ],
+    "squares" : "shared"
+  }
+}
